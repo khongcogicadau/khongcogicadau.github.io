@@ -4,11 +4,11 @@ Một ga tàu có hai ngã rẽ (ngõ cụt) $1$ và $2$. Tàu đi vào ga từ 
 
 ![image](image.png)
 
-Có $n$ toa tàu đang ở trước đường ray $A$, được đánh số từ $1$ đến $n$. Các toa tàu được sắp xếp sao cho chúng đi vào đường ray $A$ theo thứ tự $a_1, a_2, \cdots, a_n$. Những toa tàu cần được di chuyển vào ga sao cho chúng đi ra ở đường ray $B$ theo thứ tự $1, 2, \cdots, n$. Mỗi toa tàu có thể được di chuyển tới ngã rẽ $1$ hoặc $2$ và sau đó đi ra ở đường ray $B$. Mỗi ngã rẽ hoạt động như một ngăn xếp, tức là ở mỗi ngã rẽ, khi một toa di chuyển vào nó sẽ đứng đầu ngã rẽ, và mỗi lần chỉ toa đứng đầu ngã rẽ được di chuyển đến đường ray $B$.
+Có $n$ toa tàu đang ở trước đường ray $A$, được đánh số từ $1$ đến $n$. Các toa tàu được sắp xếp sao cho chúng đi vào đường ray $A$ theo thứ tự $a_1, a_2, \cdots, a_n$. Những toa tàu cần được di chuyển vào ga sao cho chúng đi ra ở đường ray $B$ theo thứ tự $1, 2, \cdots, n$. Mỗi toa tàu có thể được di chuyển tới ngã rẽ $1$ hoặc $2$ và sau đó (có thể sau khi di chuyển một số toa còn lại) đi ra ở đường ray $B$. Mỗi ngã rẽ hoạt động như một ngăn xếp, tức là ở mỗi ngã rẽ, khi một toa di chuyển vào nó sẽ đứng đầu ngã rẽ, và mỗi lần chỉ toa đứng đầu ngã rẽ được di chuyển đến đường ray $B$.
 
 ## Input format
 
-Dòng đầu tiên một số nguyên dương $n$ là số lượng toa tàu.
+Dòng đầu tiên một số nguyên dương $n$ ($n\le 1000000$) là số lượng toa tàu.
 
 Dòng thứ hai chứa $n$ số nguyên dương $a_1, a_2, \cdots, a_n$ là thứ tự các toa tàu đi vào ga.
 
